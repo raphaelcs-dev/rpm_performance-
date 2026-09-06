@@ -90,6 +90,27 @@ nav .container{
     color: var(--color-text);
 }
 
+/* HERO */ 
+
+.hero{
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+
+    background-image: url("/rpm_performance-/assets/imagens/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+
+
 /* RESPONSIVIDADE */
 
 .container{
